@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  productGUID: a7d8b249451334edeb0460b5ef360787
+  productGUID: 57e6421270259401d92920ad98c92a71
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
@@ -407,7 +407,7 @@ PlayerSettings:
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
-  ps4Passcode: RK5RhRXdCdG5nG5azdNMK66MuCV6GXi5
+  ps4Passcode: Q9wQj99nsQzldVI5ZuGXbEWRK5RhRXdC
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -453,7 +453,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: xr84P2R391UXaLHbavJvFZGfO47XWS2q
+  psp2PackagePassword: dG5nG5azdNMK66MuCV6GXi5xr84P2R39
   psp2KeystoneFile: 
   psp2MemoryExpansionMode: 0
   psp2DRMType: 0
@@ -499,7 +499,14 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: CROSS_PLATFORM_INPUT
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    14: MOBILE_INPUT
+    17: MOBILE_INPUT
+    20: MOBILE_INPUT
+    22: MOBILE_INPUT
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
@@ -586,12 +593,13 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 5e50ece6-bd47-464e-b382-66a0a2d34863
+  projectName: Snow VR
+  organizationId: christoph-m-hrke
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
